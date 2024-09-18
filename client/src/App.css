@@ -1,0 +1,189 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: #ccc;
+}
+.main {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  box-sizing: border-box;
+}
+form {
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid grey;
+  width: 400px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+form h2 {
+   width: 370px;
+
+  font-weight :100px;
+  margin: 10px;
+  margin-top :15px;
+  color: #fff;
+  padding: 5px;
+  background-color: #343a40;
+  border-radius: 3px; 
+  
+
+}
+form label {
+  margin: 10px;
+}
+form input {
+  margin: 10px;
+  width: 370px;
+  padding: 5px 8px;
+
+  border-radius: 3px;
+
+}
+form button {
+  margin: 10px;
+  padding: 5px 40px;
+  margin: 10px;
+  background-color: #343a40;
+  color: #fff;
+  border-radius: 3px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main-table {
+  margin: 4px 20px ;
+  padding: 10px;
+  width: 80%;
+  max-width: 1200px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+
+}
+
+.thead th {
+  background-color: #343a40;
+  color: white;
+  padding: 12px;
+  text-transform: uppercase;
+}
+
+.t-content {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.t-content th,
+.t-content td {
+  padding: 12px;
+  color: #343a40;
+}
+
+.t-content:hover {
+  background-color: #f1f1f1;
+}
+
+.navlink a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+  border: 1px solid transparent;
+  padding: 6px 12px;
+  border-radius: 4px;
+}
+
+.navlink a:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.btn {
+  padding: 6px 12px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #c82333;
+}
+
+/* Ensure spacing is correct without wrapping elements like div inside thead and tbody */
+.thead,
+.tbody,
+.t-data,
+.tr {
+  margin: 0;
+  padding: 0;
+  display: contents; /* Avoid wrapping issues */
+}
+
+/* SingleUser.css */
+
+.S-User {
+  box-sizing: border-box;
+  border-radius: 3px;
+  border: 1px solid grey;
+  width: 900px;
+  margin:90px;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.S-table {
+  width: 870px;
+  border-collapse: collapse;
+  margin: 20px 15px;
+}
+
+.S-thead {
+  background-color: #f4f4f4;
+  
+}
+
+.S-tr {
+  text-align: left;
+}
+
+.S-th, .S-td {
+  padding: 12px;
+  border-bottom: 1px solid #ddd;
+}
+
+.S-td {
+  text-align: center;
+}
+
+.S-tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+
+
+
+
+
+
+
+
+
